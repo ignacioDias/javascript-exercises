@@ -1,6 +1,4 @@
 const fibonacci = function(countArg) {
-    // checks argument's type and makes sure we use 
-    // a number throughout rest of function.
     let count
     if (typeof countArg !== 'number') {
         count = parseInt(countArg)
